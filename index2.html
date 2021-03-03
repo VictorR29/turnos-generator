@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Selección de Equipos</title>
+</head>
+<body>
+  <div class="contenedor">
+    <form class="app">
+      <div class="cajeros">
+        <input type="text" id="nameCajeros" placeholder="ingrese cajeros" class="cajero" />
+        <button type="button" onclick="crearCajero()" class="btnc">Agregar cajero</button>
+      </div>
+
+      <div class="empacadores">
+        <input type="text" id="nameEmpacadores" placeholder="ingrese empacadores" class="empacador" />
+        <button type="button" onclick="crearEmpacador()" class="btne">Agregar empacador</button>
+      </div>
+
+      <div class="generar">
+        <button type="button" onclick="generarEquipos()" class="generar">Generar</button>
+      </div>
+    </form>
+
+    <div class="grupos">
+        <h2>Equipos Formados</h2>  
+    </div>
+  </div>
+
+  <script src="codigo2.0.js"></script>
+</body>
+</html>
